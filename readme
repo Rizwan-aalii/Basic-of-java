@@ -1,0 +1,74 @@
+1.) lecture 1 first Topic Output
+ System.out.print("Hello, World 1!");
+        System.out.print("Hello, World3!\n");
+        System.out.println("Hello, World 2!");
+        System.err.print("hirizzu \n kaisi ho tum \n  ");
+
+2.) lecture 1 second Topic Variable 
+
+// variable' s in java 
+
+              String name  = "  tony stark ";
+              Double price = 100000.00 ;
+              Integer age = 25 ;
+              System.out.println(age);
+              System.out.println(name );
+              
+              name = "steve rogher ";
+              System.out.println(name );
+              String add = name + name ;
+              System.out.println(add);
+              int a = 10 ;
+              int b  = 5 ;
+              int ans = a * b / a - b ;
+              int ns = (a * b ) / (a - b );
+              System.out.println("Before swapping: a = " + a + ", b = " + b);
+              a = a + b ;
+              b = a - b ;
+              a = a - b ; 
+              System.out.println("After swapping: a = " + a + ", b = " + b);
+              
+              System.out.println(ans);
+              System.out.println(ns);
+
+3.) lecture 1 third Topic Input 
+
+// input in java 
+             Scanner sc = new Scanner(System.in); 
+              String school = sc.next();
+             System.out.println(school);
+             String college = sc.nextLine();   // for string value
+             Integer college = sc.nextInt();   // for number value 
+             float college = sc.nextFloat();      // for float value      
+             System.out.println(college);
+
+
+
+
+ lecture 2 
+
+ Topic condition statment 
+
+      // condition statment 
+     
+             Scanner sc = new Scanner(System.in);
+             int age = sc.nextInt();
+             if (age > 18 ) {
+                System.out.println("behan ke lund adult hai tu ");        
+             }
+             else {
+                System.out.println("choti baachi ho bhi tum ");
+             }
+     
+         Topic  switch
+     
+         // switch in java 
+         switch (a ) {
+             case 1 : System.out.println("hello");  
+             break ;
+             case 2 : System.out.println("namste");
+             break;
+             case 3 : System.out.println("salam");
+             break;
+             default : System.out.println("invalid number"); }
+         
