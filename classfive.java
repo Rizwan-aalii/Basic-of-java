@@ -76,5 +76,12 @@ public class classfive {
          System.out.println(i);
          System.out.println(j);
 
+
+         int g = 10 ;
+         System.out.println(g ++);
+         System.out.println( g );
+         System.out.println( ++ g );
+         System.out.println(g );
+
     }
 }
