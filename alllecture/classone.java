@@ -17,6 +17,18 @@ class classone {
         @SuppressWarnings("unused") // to remove warning
         // string type data type 
         String  name  = "  tony stark ";
+        System.out.println("Integer total Max value : " + Integer.MAX_VALUE);
+        System.out.println("Integer total Min value : " + Integer.MIN_VALUE);
+        System.out.println("Integer total Min value : " + Byte.MIN_VALUE);
+        System.out.println("Integer total Max value : " + Byte.MAX_VALUE);
+        System.out.println("Long total Max value : " + Long.MAX_VALUE);
+        System.out.println("Long total Min value : " + Long.MIN_VALUE);
+        System.out.println("Short total Max value : " + Short.MAX_VALUE);
+        System.out.println("Short total Min value : " + Short.MIN_VALUE);
+        System.out.println( "Max value of Float : " + Float.MAX_VALUE);
+        System.out.println( "Max value of Float : " + Float.MIN_VALUE);
+        System.out.println( "Max value of Double : " + Double.MAX_VALUE);
+        System.out.println( "Max value of Double : " + Double.MIN_VALUE);
         // double type data type 
         Double price = 100000.00 ;
         // number type data type int 
