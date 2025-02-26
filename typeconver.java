@@ -22,6 +22,16 @@ public class typeconver {
         double ddata = fdata;
         System.out.println(ddata);
 
+        // advance casting 
+        int a = 5 ;
+        String str = String.valueOf(a) ;
+        System.out.println(a+a);
+        System.out.println(str+str);
+
+        String str2 = "15";
+        int b = Integer.parseInt(str2) ;
+        System.out.println(str2+str2);
+        System.out.println(b + b);
     
 
     }
