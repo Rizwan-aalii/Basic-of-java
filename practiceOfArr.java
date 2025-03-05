@@ -15,6 +15,10 @@ public class practiceOfArr {
         for(int i = 0; i<MarvelHero.length;i++){
             System.out.println(MarvelHero[i]);
         }
+        char [] charArray = {'a' , '9' , 'b' , 'd'};
+        System.out.println(charArray);
 
+        String month = "Ramzan";
+        System.out.println(month.charAt(0));
     }
 }

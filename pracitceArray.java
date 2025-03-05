@@ -61,11 +61,58 @@ public class pracitceArray {
         //     }
         // }
 
-        int num = 10;
-        while (num % 3 != 0) {
-            System.out.print(num + " ");
-            num--;
+        // int numl = 10;
+        // while (numl % 3 != 0) {
+        //     System.out.print(numl + " ");
+        //     numl--;
+        // }
+
+        int arr[] = {1,2,3,4,5};
+        int start = 0; // this is forward treverse on arr 
+        int end = arr.length - 1 ; // this is for backward treverse on arr
+        while (start < end) {
+            //  swape the element 
+            int temp = arr[start]; // this is the 0At Index of arr 
+            arr[start] = arr[end]; // this perform end Index asign in to Start Index that mean 1 to 4 
+            arr[end] = temp ;
+
+            // update the Index of Start and End 
+            start ++ ;  // beacuse of this start with 0 the 1+1 2 2+1 3 3+1 4 
+            end -- ; // this case is 4-1 - 3 3-1 - 2 2-1 - 1-1 - 0 
         }
+        for(int num : arr){
+            System.out.print(num + " ");
+        }
+
+        System.out.println();
+        int arr1 [] = {10,20,30,40,50,60};
+        int begin = 0 ;
+        int last = arr1.length -1;
+         
+            while (begin < last) {
+                //  swape the element 
+                int solu = arr1[begin];
+               arr1[begin] = arr1[last] ;
+               arr1[last] = solu;
+    
+                // update the Index of Start and End 
+                begin ++ ;  // beacuse of this start with 0 the 1+1 2 2+1 3 3+1 4 
+                last -- ; // this case is 4-1 - 3 3-1 - 2 2-1 - 1-1 - 0 
+            }
+            for(int num1 : arr1){
+                System.out.print(num1 + " ");
+            }
+       
+        /* how this work explain 
+         
+
+arr = [1, 2, 3, 4, 5]
+start = 0  (points to 1)
+end = 4    (points to 5)
+
+
+
+         */
 
 
     }
