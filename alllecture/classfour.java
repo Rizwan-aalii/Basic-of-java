@@ -7,9 +7,9 @@ public class classfour {
         System.out.println(name);
         return;
     }
-    public static int sumTwoValue (int a , int b){
+    public static int sumTwoValue (int a , int b ){
         int sum = a + b ; 
-        return sum ; 
+        return sum ;          
     }
     public static int multNumber (int a , int b ){
         int mul = a * b ;
@@ -22,8 +22,8 @@ public class classfour {
 
         int a = 10; 
         int b = 15;
-        int  sum =  sumTwoValue(a, b);
-        System.out.println(sum);
+        int output = sumTwoValue(120 , 10);
+        System.out.println(output);
         
         int mul = multNumber(a, b);
         System.out.println(mul);

@@ -8,7 +8,7 @@ public class calc {
 
 
 
-     Scanner input = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
      int a = input.nextInt();
      int operator =input.next().charAt(0);
      int b = input.nextInt();
@@ -41,21 +41,10 @@ public class calc {
             default:System.out.println("enter valid number");
         };
 
-        String Sport = "fourmula 1 ";
-        switch (Sport) {
-            case "fourmula 1 ":
-            System.out.println("Lewis Hamilton , Max Versthempen , Charles Leclere ");                
-                break;
-             case "cricket":
-             System.out.println("Virat Kohli , Rohit Sharma , Ben Stock , Steven Smith ");
-             break;
-             case "football" : 
-             System.out.println("Cristiano Ronaldo , Luro Messi , Neymar Jr , Cilian Mbaape , Mesult Ozil");
-             break;
-             case "wwe" : 
-             System.out.println("Roman Reigs , Undertaker , Brock Lesner , Randi Oraten ");
-            default:
-        };
+       
+       
+
+        
     
     
 
