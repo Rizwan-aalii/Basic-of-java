@@ -1,3 +1,4 @@
+package Practice;
 
 public class SwapVariables {
     public static void main(String[] args) {

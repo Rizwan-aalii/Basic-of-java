@@ -1,3 +1,4 @@
+package Practice;
 public class associativty {
  public static void main (String args []){
     int a = 10 ;
