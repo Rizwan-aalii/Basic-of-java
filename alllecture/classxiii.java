@@ -3,6 +3,8 @@ package alllecture;
 public class classxiii {
     public static void main(String[] args) {
 
+        // String in Java 
+
         String firstName = "Rizwan" ; 
         String lastName = "Sheikh";
         String fullName = firstName + " " + lastName ;

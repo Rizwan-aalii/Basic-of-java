@@ -2,7 +2,7 @@ package alllecture;
 import java.util.Scanner;
 
 public class classsix {
-    // arrys
+    // Arrys in Java 
     public static void main (String args []){
         @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);

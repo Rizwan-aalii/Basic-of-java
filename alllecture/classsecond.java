@@ -6,7 +6,7 @@ public class classsecond
 
     public static void main (String args [] ) {
 
-    // condition statment 
+    // Conditional Statment Switch Case in Java 
 
      @SuppressWarnings("resource")
      Scanner sci = new Scanner(System.in);

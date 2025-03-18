@@ -2,7 +2,7 @@ package alllecture;
 import java.util.*;
 class classone {
     public static void main(String[] args) {
-        // output in java 
+        // Input Output Varible's in java 
         System.out.print("Hello, World 1!");
         System.out.print("Hello, World3!\n");
         System.out.println("Hello, World 2!");

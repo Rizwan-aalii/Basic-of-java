@@ -2,6 +2,7 @@ package alllecture;
 import java.util.Scanner;
 
 public class Main {
+    // 2D Array IN Java 
     public static void main(String[] args) {
         @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);

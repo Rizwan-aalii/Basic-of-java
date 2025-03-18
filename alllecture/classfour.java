@@ -2,6 +2,7 @@ package alllecture;
 
 public class classfour {
 
+    // Function in Java 
     public static void printName (String name ){
         System.out.println(name);
         return;

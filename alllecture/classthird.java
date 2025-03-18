@@ -4,6 +4,8 @@ package alllecture;
 public class classthird {
     public static void main( String args [] ) {
 
+        // Loops In Java And Nasted Loop 
+
         // nasted loop in java 
         /* Q1.  *****
                 *****
