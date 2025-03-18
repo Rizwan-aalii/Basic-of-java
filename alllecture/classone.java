@@ -14,7 +14,6 @@ class classone {
         System.out.print("*\n** \n***\n");
 
         // variable' s in java 
-        @SuppressWarnings("unused") // to remove warning
         // string type data type 
         String  name  = "  tony stark ";
         System.out.println("Integer total Max value : " + Integer.MAX_VALUE);
@@ -29,8 +28,6 @@ class classone {
         System.out.println( "Max value of Float : " + Float.MIN_VALUE);
         System.out.println( "Max value of Double : " + Double.MAX_VALUE);
         System.out.println( "Max value of Double : " + Double.MIN_VALUE);
-        // double type data type 
-        Double price = 100000.00 ;
         // number type data type int 
         int age = 25 ;
         // print the value age and name 
@@ -58,6 +55,7 @@ class classone {
         
 
         // input in java 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in); 
         // String school = sc.next();
         // System.out.println(school);

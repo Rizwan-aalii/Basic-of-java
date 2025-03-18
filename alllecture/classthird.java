@@ -1,5 +1,5 @@
 package alllecture;
-import java.util.*;
+
 
 public class classthird {
     public static void main( String args [] ) {

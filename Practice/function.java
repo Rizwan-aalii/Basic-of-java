@@ -1,6 +1,6 @@
-
+package Practice;
 import java.util.Scanner;
-import java.util.concurrent.ForkJoinPool;
+
 
 public class function {
 
@@ -39,10 +39,9 @@ public class function {
         System.out.println(Cars);
     }
     public static void main (String args []){
-        int a = 2 ;
-        char b = '1';
         float value =  AmoutOfProduct(100.00f, 300.00f, 250.00f);
         System.out.println(value);
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         String Cars = in.nextLine();
         CarsName(Cars);

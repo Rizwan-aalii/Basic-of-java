@@ -1,4 +1,4 @@
-
+package Practice;
 
 import java.util.Scanner;
 
@@ -37,6 +37,7 @@ public class practiceFn {
     
     public static void main(String args[]) {
 
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         int Maths = in.nextInt();
         int Physics = in.nextInt();
@@ -53,9 +54,7 @@ public class practiceFn {
         }
         
 
-        final int g = 10;  // Cannot change x
-
-// finally example
+        // finally example
      try {
              System.out.println(10 / 2);
     } catch (Exception e) {

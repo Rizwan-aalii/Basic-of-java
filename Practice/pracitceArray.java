@@ -1,4 +1,5 @@
-import java.util.*;
+package Practice;
+// import java.util.*;
 public class pracitceArray {
     public static void main (String args []){
         // Scanner in = new Scanner(System.in);

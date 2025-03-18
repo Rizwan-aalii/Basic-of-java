@@ -1,5 +1,5 @@
 package alllecture;
-import java.util.Scanner;
+
 
 public class classxii {
 	public static void main (String args []){

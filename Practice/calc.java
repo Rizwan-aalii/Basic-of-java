@@ -1,4 +1,4 @@
-
+package Practice;
 import java.util.*;
 
 public class calc {
@@ -8,6 +8,7 @@ public class calc {
 
 
 
+      @SuppressWarnings("resource")
       Scanner input = new Scanner(System.in);
      int a = input.nextInt();
      int operator =input.next().charAt(0);

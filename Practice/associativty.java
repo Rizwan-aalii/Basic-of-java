@@ -3,7 +3,6 @@ public class associativty {
  public static void main (String args []){
     int a = 10 ;
     int b = 15 ;
-    int c = 5 ;
     int clc = a+b +2 + a + b + b *b ;
      clc = a*b -a + a/b;
      /* a*b -a + a/b 

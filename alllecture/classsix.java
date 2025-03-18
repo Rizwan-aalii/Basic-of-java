@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class classsix {
     // arrys
     public static void main (String args []){
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of strings: ");
         int size = scanner.nextInt(); // this take size of array 

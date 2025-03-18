@@ -1,10 +1,22 @@
+package Practice;
 import java.util.Scanner;
 public class practiceOfArr {
 
     public static void main(String args []){
-        Scanner in = new Scanner(System.in); // this line mean scanner object 
-        // int size = in.nextInt(); // this is a number input we want 
-        // in.nextLine(); // this is for buffer
+        try (Scanner in = new Scanner(System.in)) {
+            System.out.println("how much lenth you want in to array ");
+            int size = in.nextInt();
+            System.out.println("inter your value in array ");
+            int value [] = new int[size];
+            for(int i = 0 ; i<value.length;i++){
+                value [i] = in.nextInt();
+            }
+            // that is foreach loop 
+            System.out.println("here are your value output ");
+            for(int i : value){
+                System.out.println(i);
+            }
+        }
 
         // System.out.println("How much want to print ");
         // String [] MarvelHero = new String[size]; // this is our array value 
@@ -21,20 +33,7 @@ public class practiceOfArr {
         // String month = "Ramzan";
         // System.out.println(month.charAt(0));
 
-        System.out.println("how much lenth you want in to array ");
-        int size = in.nextInt();
-        System.out.println("inter your value in array ");
-        int value [] = new int[size];
-        for(int i = 0 ; i<value.length;i++){
-            value [i] = in.nextInt();
-        }
-        // that is foreach loop 
-        System.out.println("here are your value output ");
-        for(int i : value){
-            System.out.println(i);
-        }
-        
-       int jaggadArry [] [] = new int [2] [3];
+        int jaggadArry [] [] = new int [2] [3];
        jaggadArry [0] =new int[]  {10, 15, 20};
        jaggadArry[1] = new int [] {25 , 30};
         for(int i = 0; i<jaggadArry.length; i++){
@@ -43,6 +42,7 @@ public class practiceOfArr {
             }
             System.out.println();
         }
+        
     
 
 

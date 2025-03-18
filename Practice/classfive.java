@@ -1,4 +1,6 @@
-import java.lang.classfile.Opcode;
+package Practice;
+
+
 
 public class classfive {
     public static void main(String args []){

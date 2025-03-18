@@ -1,5 +1,4 @@
 package alllecture;
-import java.util.*;;
 
 public class classfour {
 

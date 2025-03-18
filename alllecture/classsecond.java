@@ -1,5 +1,5 @@
 package alllecture;
-import java.lang.classfile.instruction.SwitchCase;
+
 import java.util.*;
 public class classsecond 
 {
@@ -8,6 +8,7 @@ public class classsecond
 
     // condition statment 
 
+     @SuppressWarnings("resource")
      Scanner sci = new Scanner(System.in);
      int age = sci.nextInt();
      if (age > 18 ) {
@@ -17,6 +18,7 @@ public class classsecond
         System.out.println("choti baachi ho bhi tum ");
      }
 
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
     if (a % 2 == 0){
@@ -30,9 +32,10 @@ public class classsecond
      * check the value of aa and b equal that print equal value big print big 
      * value small print small 
      */
+    @SuppressWarnings("resource")
     Scanner scp = new Scanner(System.in);
     int aa = scp.nextInt();
-    String operation = sc.nextLine() ;
+    sc.nextLine();
     int b = sc.nextInt();
     
     if (aa == b ) {
