@@ -15,18 +15,24 @@ public class classfour {
         int mul = a * b ;
         return mul; 
     }
+    public static void nothingReturn() {
+        System.out.println("we are simple function ");
+    }
     
     public static void main( String args [] ) {
         String name = "tony stark ";
         printName(name);
 
-        int a = 10; 
-        int b = 15;
+        int a = 3; 
+        int b = 5;
+        int mul = multNumber(a, b);
+        System.out.println(mul);
+
+        
         int output = sumTwoValue(120 , 10);
         System.out.println(output);
         
-        int mul = multNumber(a, b);
-        System.out.println(mul);
+        nothingReturn();
 
 
 
