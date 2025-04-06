@@ -1,4 +1,5 @@
 package alllecture;
+
 import java.util.Scanner;
 public class class10 {
     public static void main(String[] args) {
