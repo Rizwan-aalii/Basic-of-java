@@ -21,5 +21,10 @@ public class practice {
 
         // Print sorted array
         System.out.println(Arrays.toString(arr));
+
+        Scanner in = new Scanner(System.in);
+        int size = in.nextInt();
+        
+
     }
 }

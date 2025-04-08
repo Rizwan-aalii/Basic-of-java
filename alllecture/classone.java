@@ -55,7 +55,7 @@ class classone {
         
 
         // input in java 
-        @SuppressWarnings("resource")
+        
         Scanner sc = new Scanner(System.in); 
         // String school = sc.next();
         // System.out.println(school);
