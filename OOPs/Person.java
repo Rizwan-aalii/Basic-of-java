@@ -1,4 +1,4 @@
-package OOPs;
+package OOPS;
 // Class representing a Person
 public class Person {
     // Private field

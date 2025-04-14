@@ -1,4 +1,4 @@
-package OOPs;
+package OOPS;
 
 abstract class Animal {
     // Abstract class: Animal

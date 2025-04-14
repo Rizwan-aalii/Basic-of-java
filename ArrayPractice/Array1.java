@@ -1,5 +1,4 @@
 package ArrayPractice;
-import java.lang.reflect.Array;
 import java.util.*;
 
 class InputWithArray {
@@ -23,6 +22,8 @@ class InputWithArray {
 
     }
 
+   
+
 
 }
 class Array2 {
@@ -36,6 +37,18 @@ class Array2 {
         }
         System.out.println(Arrays.toString(Arraysa));
         
+    }
+}
+
+class animal {
+    String directorName = "Sandeep Reddy Wanga" ;
+    
+
+}
+
+class AnimalPark extends animal {
+    public void animul () {
+        System.out.println(directorName);
     }
 }
 
@@ -79,6 +92,15 @@ public class Array1 {
         arr.MyArray();
         InputWithArray arru = new InputWithArray();
         arru.InputArray();
+
+        
+        
+
+        AnimalPark ani = new AnimalPark() ;
+        ani.animul();
+        
+
+
 
         
 
